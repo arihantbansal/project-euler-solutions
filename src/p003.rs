@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     let n: i64 = 600851475143;
     let mut max: i64 = 0;
 

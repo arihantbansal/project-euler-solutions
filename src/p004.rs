@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     let mut max = 0;
     for i in (100..999).rev() {
         for j in (100..999).rev() {

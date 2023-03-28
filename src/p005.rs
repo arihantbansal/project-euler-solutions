@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     let mut ans = lcm(1, 2);
 
     for i in 3..=20 {

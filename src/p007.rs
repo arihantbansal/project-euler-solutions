@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
     let n = 10_001;
     let max_bound = upper_bound_for_p_n(n);
 
