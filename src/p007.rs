@@ -4,7 +4,7 @@ pub fn run() {
 
     println!("Upper bound for {} primes is {}", n, max_bound);
 
-    let count = 0;
+    let mut count = 0;
 
     for i in 2..max_bound {
         if is_prime(i) {
