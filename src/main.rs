@@ -9,6 +9,9 @@ mod p006;
 mod p007;
 mod p008;
 mod p009;
+mod p010;
+mod p011;
+mod p012;
 
 #[derive(Parser, Debug)]
 struct Args {
@@ -30,6 +33,9 @@ fn main() {
         7 => p007::run(),
         8 => p008::run(),
         9 => p009::run(),
+        10 => p010::run(),
+        11 => p011::run(),
+        12 => p012::run(),
         _ => println!("Problem hasn't been solved yet :("),
     }
 }
