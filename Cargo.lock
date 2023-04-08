@@ -234,6 +234,7 @@ dependencies = [
  "clap",
  "num",
  "primes",
+ "reikna",
 ]
 
 [[package]]
@@ -244,6 +245,12 @@ checksum = "4424af4bf778aae2051a77b60283332f386554255d722233d09fbfc7e30da2fc"
 dependencies = [
  "proc-macro2",
 ]
+
+[[package]]
+name = "reikna"
+version = "0.12.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "587f2b12c725829d56d8192817535cbfe3c4b5daf294622765cec5969d980eca"
 
 [[package]]
 name = "rustix"

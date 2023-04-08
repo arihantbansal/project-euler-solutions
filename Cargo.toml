@@ -9,3 +9,4 @@ edition = "2021"
 clap = { version = "4.1.14", features = ["derive"] }
 num = "0.4.0"
 primes = "0.3.0"
+reikna = "0.12.3"
